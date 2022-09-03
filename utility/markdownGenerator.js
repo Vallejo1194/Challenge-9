@@ -1,5 +1,7 @@
 
 
+// function to show the data set on the inputs 
+
 function markDown (data) {
     return `
 # ${data.projectTitle}
@@ -7,6 +9,7 @@ function markDown (data) {
 ## description 
 
 ${data.description}
+
 
 
 
@@ -51,5 +54,7 @@ ${data.email}`
 }
 
 console.log(markDown);
+
+// export the function 
 
 module.exports = markDown;

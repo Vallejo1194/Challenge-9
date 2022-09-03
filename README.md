@@ -1,9 +1,9 @@
 
-# as
+# readme generator
 
 ## description 
 
-sd
+app who helps you build an easy readme file
 
 
 
@@ -18,30 +18,30 @@ sd
 
 ## Installation
 
-fs
+clone my repository to you computer, install inquirer with npm, run a node 
 
 
 ## Contributors
 
-f
+no
 
 ## Restrictions 
 
-sdf
+no
 
 ## test
 
-sd
+yes
 
 ## License 
 
-MPL
+ISC
 
 ## author
 
-f
+David Adrian Vallejo Valdez
 
 ## contact information
 
-(https://github.com/fs)
-sd
+(https://github.com/Vallejo1194)
+adrian.vallejo94@gmail.com

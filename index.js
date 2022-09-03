@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const markDown = require('./utility/markdownGenerator');
 
+// set the questions and names with the inquirer syntax
 
     inquirer
         .prompt([
@@ -82,6 +83,7 @@ const markDown = require('./utility/markdownGenerator');
         
         ])
 
+    // function to create the read me with the information 
   .then ((data) => {
 
 fs.writeFile('README.md', markDown(data), (err) => err ? console.log(err) : console.log('Success')
